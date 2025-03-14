@@ -1,0 +1,23 @@
+---
+layout: framework
+sidebar: labos-list
+---
+{% assign sorted_labos = site.labos | sort: "name" %}
+{% assign current_letter = "" %}
+
+{% for labo in sorted_labos %}
+    {% assign first_letter = labo.name | slice: 0,1 | upcase %}
+
+    {% if first_letter != current_letter %}
+        {% unless forloop.first %}</ul>{% endunless %}
+        
+        <h2>{{ first_letter }}</h2>
+        <ul>
+
+        {% assign current_letter = first_letter %}
+    {% endif %}
+
+    <li><a href="{{ labo.url }}">{{ labo.name }}</a></li>
+
+    {% if forloop.last %}</ul>{% endif %}
+{% endfor %}

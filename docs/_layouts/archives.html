@@ -1,0 +1,22 @@
+---
+layout: framework
+sidebar: archive-list
+---
+<h2>Voir les <a href="categories.html">catégories</a></h2>
+<h2>Voir les <a href="tags.html">tags</a></h2>
+
+{% include search-lunr.html %}
+
+{%- if site.posts.size > 0 -%}
+
+  {% include functions.html func='log' level='debug' msg='Get datetimes value' %}
+
+  {% assign filter = '%Y' %}
+  {% include functions.html func='get_datetimes' %}
+  {% assign datetimes = return %}
+
+  {% assign keys = datetimes | reverse %}
+  {% assign field = 'date' %}
+  {% include views/segments.html %}
+
+{%- endif -%}

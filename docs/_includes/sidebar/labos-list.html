@@ -1,0 +1,12 @@
+{% assign grouped_labos = site.labos | group_by_exp: "labo", "labo.title | slice: 0,1" | sort: "name" %}
+<div class="common-list">
+    <ul>
+        {% for group in grouped_labos %}
+            <li>
+                <a href="#{{ group.name | downcase }}">
+                    {{ group.name | upcase }} <span>{{ group.items | size }}</span>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
