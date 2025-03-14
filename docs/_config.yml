@@ -27,9 +27,36 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  reseau-iabm
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+collections:
+  labos:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: labos
+    values:
+      layout: labo
+
+# Theme
+remote_theme: "jeffreytse/jekyll-theme-yat@v1.10.0"
+
+header_transparent: false
+lang: "fr"
+night_mode: "on/off"
+
+banner:
+  opacity: 0.3            # Banner opacity (100% is 1.0)
+
+header_pages:
+  - about.md
+  - archives.md
+  - contact.md
+  - contribute.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
