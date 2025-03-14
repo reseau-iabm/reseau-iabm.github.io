@@ -7,10 +7,9 @@ sidebar:
   - article-menu
 ---
 
-{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}
-
 <div class="post">
   <section>
+    {{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}
 
     {%- assign name = 'banner' -%}
     {%- include functions.html func='get_value' -%}
