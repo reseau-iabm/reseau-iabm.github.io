@@ -5,7 +5,7 @@ Markdown (`.md`) de ce dépôt GitHub.
 
 Pour [ajouter un labo dans l'annuaire](#ajouter-un-labo), [publier un article](#ajouter-un-post) ou [modifier les pages statiques du site](#modifier-les-pages-statiques), vous êtes encouragés à [ouvrir une Pull Request](#pull-request) sur la branche `main` de ce dépôt. Vous pouvez [tester localement vos modifications](#tester-localement-le-site) avant de proposer vos changements.
 
-Ce [tuto]({{ site.baseurl }}{% link _posts/2025-03-11-markdown.md %}) vous aidera à prendre rapidement en main la syntaxe Markdown.
+Ce [tuto](https://reseau-iabm.github.io/tuto/2025/03/11/markdown.html) vous aidera à prendre rapidement en main la syntaxe Markdown.
 
 ## Pull request
 
@@ -17,7 +17,7 @@ susceptibles de "casser" le site);
 
 Quelques exemples:
 - [Ajouter un labo à l'annuaire](https://github.com/reseau-iabm/reseau-iabm.github.io/pull/1)
-- [Ajouter un post](https://github.com/reseau-iabm/reseau-iabm.github.io/pull/2)
+- [Ajouter un post](https://github.com/reseau-iabm/reseau-iabm.github.io/pull/3)
 
 ## Tester localement le site
 
@@ -26,6 +26,8 @@ Quelques exemples:
 3. Lancer la commande `bundle install`;
 4. Lancer la commande `bundle exec jekyll serve`.
 
+[Pour plus d'informations.](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+
 ## Ajouter un labo
 
 Pour ajouter un laboratoire à l'annuaire, créez un fichier markdown (`.md`) dans le dossier `_labos`.
@@ -33,7 +35,7 @@ Dans l'en-tête, indiquez le **nom**, la **ville**, l'**adresse**, des **contact
 
 Enfin, ajouter une description de votre laboratoire dans le corps du fichier.
 
-Référez-vous à [un example]({{ site.baseurl }}{% link _labos/aramis.md %}) pour vous aider.
+Référez-vous à [un example](https://github.com/reseau-iabm/reseau-iabm.github.io/blob/main/docs/_labos/aramis.md?plain=1) pour vous aider.
 
 ## Ajouter un post
 
@@ -44,7 +46,7 @@ des **tags**. Laisser `layout` à `post`.
 Écrivez ensuite votre article avec la syntaxe Markdown dans le corps du fichier. 
 
 Référez-vous
-à [un example]({{ site.baseurl }}{% link _posts/2025-03-11-markdown.md %}) pour vous aider.
+à [un example](https://github.com/reseau-iabm/reseau-iabm.github.io/blob/main/docs/_posts/2025-03-17-bienvenue.md?plain=1) pour vous aider.
 
 ## Modifier les pages statiques
 
