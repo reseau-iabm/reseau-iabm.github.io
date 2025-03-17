@@ -14,7 +14,7 @@ ce dépôt GitHub) et attendre l'approbation d'un reviewer.
 
 Quelques exemples:
 - [Ajouter un labo à l'annuaire](https://github.com/reseau-iabm/reseau-iabm.github.io/pull/1)
-- [Ajouter un post](https://github.com/reseau-iabm/reseau-iabm.github.io/pull/3)
+- [Ajouter un article](https://github.com/reseau-iabm/reseau-iabm.github.io/pull/3)
 
 ## Tester localement le site
 
