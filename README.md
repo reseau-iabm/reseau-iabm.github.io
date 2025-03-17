@@ -7,7 +7,7 @@ Pour [ajouter un labo dans l'annuaire](#ajouter-un-labo), [publier un article](#
 
 Ce [tuto](https://reseau-iabm.github.io/tuto/2025/03/11/markdown.html) vous aidera à prendre rapidement en main la syntaxe Markdown.
 
-## Pull request
+## Ouvrir un Pull Request
 
 Pour ajouter des informations ou proposer des modifications, il faut ouvrir une [Pull Request](https://docs.github.com/en/pull-requests) (idéalement en [forkant](https://docs.github.com/fr/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) préalablement
 ce dépôt GitHub) et attendre l'approbation d'un reviewer.
