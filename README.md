@@ -3,7 +3,7 @@
 Le site du Réseau IABM est construit avec **Jekyll** et déployé via **[GitHub Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)**. Pour construire le site, Jekyll utilise un template et le combine avec du contenu **Markdown**. Pour modifier le contenu du site, il n'y a donc qu'à modifier les fichiers
 Markdown (`.md`) de ce dépôt GitHub.
 
-Pour [ajouter un labo dans l'annuaire](#ajouter-un-labo), [publier un article](#ajouter-un-post) ou [modifier les pages statiques du site](#modifier-les-pages-statiques), vous êtes encouragés à [ouvrir une Pull Request](#pull-request) sur la branche `main` de ce dépôt. Vous pouvez [tester localement vos modifications](#tester-localement-le-site) avant de proposer vos changements.
+Pour [ajouter un labo dans l'annuaire](#ajouter-un-labo), [publier un article](#ajouter-un-article) ou [modifier les pages statiques du site](#modifier-les-pages-statiques), vous êtes encouragés à [ouvrir une Pull Request](#ouvrir-une-pull-request) sur la branche `main` de ce dépôt. Vous pouvez [tester localement vos modifications](#tester-localement-le-site) avant de proposer vos changements.
 
 Ce [tuto](https://reseau-iabm.github.io/tuto/2025/03/11/markdown.html) vous aidera à prendre rapidement en main la syntaxe Markdown.
 
@@ -34,7 +34,7 @@ Enfin, ajouter une description de votre laboratoire dans le corps du fichier.
 
 Référez-vous à [un example](https://github.com/reseau-iabm/reseau-iabm.github.io/blob/main/docs/_labos/aramis.md?plain=1) pour vous aider.
 
-## Ajouter un post
+## Ajouter un article
 
 Pour ajouter un post, créez un markdown (`.md`) dans le dossier `_posts`. Dans l'en-tête, indiquez
 le **titre**, la **date**, l'**auteur**, une ou plusieurs **catégorie(s)**, et éventuellement
