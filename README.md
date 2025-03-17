@@ -9,11 +9,8 @@ Ce [tuto](https://reseau-iabm.github.io/tuto/2025/03/11/markdown.html) vous aide
 
 ## Pull request
 
-1. Ouvrir une [Pull Request](https://docs.github.com/en/pull-requests) (idéalement, en [forkant](https://docs.github.com/fr/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) préalablement
-ce dépôt GitHub);
-2. Vérifier que les tests de déploiement passent (i.e. que vos modifications ne sont pas
-susceptibles de "casser" le site);
-3. Attendre l'approbation d'un reviewer.
+Pour ajouter des informations ou proposer des modifications, il faut ouvrir une [Pull Request](https://docs.github.com/en/pull-requests) (idéalement en [forkant](https://docs.github.com/fr/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) préalablement
+ce dépôt GitHub) et attendre l'approbation d'un reviewer.
 
 Quelques exemples:
 - [Ajouter un labo à l'annuaire](https://github.com/reseau-iabm/reseau-iabm.github.io/pull/1)
