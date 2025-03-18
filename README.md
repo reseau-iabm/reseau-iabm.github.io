@@ -27,7 +27,7 @@ Quelques exemples:
 
 ## Ajouter un labo
 
-Pour ajouter un laboratoire à l'annuaire, créez un fichier markdown (`.md`) dans le dossier `_labos`.
+Pour ajouter un laboratoire à l'annuaire, créez un fichier markdown (`<nom du labo>.md`) dans le dossier `_labos`.
 Dans l'en-tête, indiquez le **nom**, la **ville**, l'**adresse**, des **contacts** de votre laboratoire, ainsi qu'un éventuel **site internet**. Vous pouvez également ajouter le **logo** de votre laboratoire, qu'il vous faudra rajouter dans `images/labos`.
 
 Enfin, ajouter une description de votre laboratoire dans le corps du fichier.
@@ -36,9 +36,9 @@ Référez-vous à [un example](https://github.com/reseau-iabm/reseau-iabm.github
 
 ## Ajouter un article
 
-Pour ajouter un post, créez un markdown (`.md`) dans le dossier `_posts`. Dans l'en-tête, indiquez
+Pour ajouter un post, créez un markdown (`AAAA-MM-JJ-<nom de l'article>.md`) dans le dossier `_posts`. Dans l'en-tête, indiquez
 le **titre**, la **date**, l'**auteur**, une ou plusieurs **catégorie(s)**, et éventuellement
-des **tags**. Laisser `layout` à `post`.
+des **tags**. Laisser `layout` à `post_with_title`.
 
 Écrivez ensuite votre article avec la syntaxe Markdown dans le corps du fichier. 
 
