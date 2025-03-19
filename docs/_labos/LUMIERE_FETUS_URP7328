@@ -2,15 +2,10 @@
 name: Platform LUMIERE (URP 7328 FETUS), Université Paris-Cité
 address: Hôpital Necker Enfants-Malades, Tour Lavoisier RdC, 149 rue de Sèvres, 75015 Paris
 city: Paris
-image: /images/labos/aramis-lab.png
-website: https://www.aramislab.fr/
+image: /images/labos/lumiere.jpg
+website: https://fondation-lumiere.org/la-plateforme-lumiere/
 contacts:
-    - name: Maëlys Solal
-      email: maelys.solal@icm-institute.org
-    - name: Camille Brianceau
-      email: camille.brianceau@icm-institute.org
-    - name: Alice Joubert Brianceau
-      email: alice.joubert@icm-institute.org
-    - name: Thibault de Varax
-      email: thibault.devarax@icm-institute.org
+    - name: bguioh
+      email: ofuezhovds 
+  
 ---
